@@ -1,0 +1,19 @@
+{
+	"name": "youtube-video-player",
+	"version": "1.0.0",
+	"description": "A native clone of youtube's video player",
+	"main": "index.js",
+	"author": "tb0se",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "http-server",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "vite build --base=./"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"vite": "^4.1.4"
+	}
+}
